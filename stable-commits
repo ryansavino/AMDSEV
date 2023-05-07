@@ -3,8 +3,9 @@
 #
 
 # hypervisor commit
-KERNEL_GIT_URL="https://github.com/AMDESE/linux.git"
+KERNEL_HOST_GIT_URL="https://github.com/AMDESE/linux.git"
 KERNEL_HOST_BRANCH="snp-host-latest"
+KERNEL_GUEST_GIT_URL="https://github.com/AMDESE/linux.git"
 KERNEL_GUEST_BRANCH="snp-guest-latest"
 
 # qemu commit
