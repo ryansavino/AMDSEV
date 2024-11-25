@@ -6,7 +6,7 @@
 if [ "$ID" = "debian" ] || [ "$ID_LIKE" = "debian" ]; then
 	apt-get -y install qemu ovmf
 else
-	dnf install @virt edk2-ovmf -y
+	dnf install -y qemu-kvm edk2-ovmf
 fi
 
 if [ "$ID" = "debian" ] || [ "$ID_LIKE" = "debian" ]; then
